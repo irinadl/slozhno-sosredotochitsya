@@ -30,7 +30,7 @@
 @media (min-width: 375px) and (max-width: 768px) {
   :root {
     --title-font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
-  } 
+  }
 }
 
 @media (min-width: 768px) and (max-width: 1200px) {
