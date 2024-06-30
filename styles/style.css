@@ -295,6 +295,7 @@ button:disabled {
 display: grid;
 grid-template-columns: repeat(3, 1fr);
 gap: 20px;
+grid-auto-flow: row dense;
 }
 
 .gallery_list .section_list_item:nth-child(1) {
@@ -302,16 +303,23 @@ gap: 20px;
 }
 .gallery_list .section_list_item:nth-child(2) {
   grid-row: span 2;
-}
+  }
 
 .gallery_list .section_list_item:nth-child(3) {
   grid-row: span 2;
-}
+  }
 
 .gallery_list .section_list_item:nth-child(5) {
   grid-column: span 2;
 }
+ }
+
+@media (min-width: 1023px) {
+  .gallery_list .section_list_item:nth-child(5) {
+    padding-top: 5px;
 }
+}
+
 
 /*Картинки для мобильных*/
 
