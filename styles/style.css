@@ -35,6 +35,7 @@
 
   .accent_text {
     font-weight: 700;
+    font-size: 18px;
     color: var(--accent-text-color, #000028);
     background: var(--accent-color, #FF0070);
   }
@@ -193,7 +194,7 @@ button:disabled {
 .section_reasons {
   width: 100%;
   grid-template-columns: 1fr 2fr;
-  gap: 10px;
+ /* gap: 10px;*/
  }
 
 

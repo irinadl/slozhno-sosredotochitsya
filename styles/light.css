@@ -17,7 +17,7 @@
     --accent-text-color: #353430;
     --title-color: #ffc2e6;
     --section-title-color: #353430;
-    --section-points-color: #000028;
+    --section-points-color: #353430;
     --decor-color: #353430;
     --bg-image: url("../images/cover-image-light.png");
   }
@@ -46,6 +46,8 @@
     --accent-color:  #FF8DCB;
     --accent-text-color: #353430;
     --title-color: #ffc2e6;
+    --section-title-color: #353430;
+    --section-points-color: #353430;
     --decor-color: #353430;
     --bg-image: url("../images/cover-image-light.png");
   } 
