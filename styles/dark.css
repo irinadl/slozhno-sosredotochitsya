@@ -8,6 +8,8 @@
   --bg-color: #000028;
   --text-color: #F1B2CE;
   --accent-color:  #FF0070;
+  --accent-text-color: #000028;
+  --shadow-color: #FF0070;
   --title-color: #db00ff;
   --decor-color: #FF0070;
   --bg-image: url("../images/cover-image-dark.png");
@@ -22,6 +24,8 @@
   --bg-color: #000028;
   --text-color: #F1B2CE;
   --accent-color:  #FF0070;
+  --accent-text-color: #000028;
+  --shadow-color: #FF0070;
   --title-color: #db00ff;
   --decor-color: #FF0070;
   --bg-image: url("../images/cover-image-dark.png");

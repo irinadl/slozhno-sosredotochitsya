@@ -12,8 +12,12 @@
   
     --bg-color: #FFF1F7;
     --text-color: #353430;
-    --accent-color:  #FF8DCB;
+    --shadow-color: #ff0070;
+    --accent-color: #FF8DCB;
+    --accent-text-color: #353430;
     --title-color: #ffc2e6;
+    --section-title-color: #353430;
+    --section-points-color: #000028;
     --decor-color: #353430;
     --bg-image: url("../images/cover-image-light.png");
   }
@@ -26,6 +30,8 @@
     --bg-color: #FFF1F7;
     --text-color: #353430;
     --accent-color:  #FF8DCB;
+    --accent-text-color: #353430;
+    --shadow-color: #ff0070;
     --title-color: #ffc2e6;
     --decor-color: #353430;
     --bg-image: url("../images/cover-image-light.png");
@@ -36,7 +42,9 @@
     :root {
     --bg-color: #FFC2E6;
     --text-color: #353430;
+    --shadow-color: #ff0070;
     --accent-color:  #FF8DCB;
+    --accent-text-color: #353430;
     --title-color: #ffc2e6;
     --decor-color: #353430;
     --bg-image: url("../images/cover-image-light.png");

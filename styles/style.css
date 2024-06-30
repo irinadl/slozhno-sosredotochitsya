@@ -29,13 +29,13 @@
     font-size: var(--title-font-size, 116px);
     line-height: 83%;
     color: var(--title-color, #db00ff);
-    text-shadow: 4px 4px var(--accent-color, #FF0070); 
+    text-shadow: 4px 4px var(--shadow-color, #FF0070); 
     margin-left: -10px; 
   }
 
   .accent_text {
     font-weight: 700;
-    color: var(--bg-color, #000028);
+    color: var(--accent-text-color, #000028);
     background: var(--accent-color, #FF0070);
   }
   
@@ -104,7 +104,7 @@ right: var(--padding, 10px);
 .header__theme-menu {
   line-height: 100%;
   text-align: center;
-  color: var(--accent-color, #FF0070);
+  color: var(--decor-color, #FF0070);
   text-transform: lowercase;
  }
 
@@ -169,7 +169,7 @@ button:disabled {
 .link {
   text-decoration: none;
   color: var(--text-color, #F1B2CE);
-  text-shadow: 1px 1px var(--accent-color, #FF0070); 
+  text-shadow: 1px 1px var(--shadow-color, #FF0070); 
 }
 
 .link:hover {
@@ -211,7 +211,7 @@ button:disabled {
 .section_title {
   font-weight: 700;
   font-size: inherit;
-  color: var(--accent-color, #FF0070);
+  color: var(--section-title-color, #FF0070);
   display: block;
   width: 30vw;
 }
@@ -225,10 +225,6 @@ button:disabled {
 .section_subtitle {
   display: block;
   width: 100%;
-  background: var(--accent-color, #FF0070);
-  font-weight: 700;
-  font-size: inherit;
-  color: var(--bg-color, #000028);
   margin-block-end: 10px;
 }
 
@@ -256,7 +252,7 @@ button:disabled {
   background: var(--accent-color, #FF0070);
   font-weight: inherit;
   margin-block-end: 10px;
-  color: var(--bg-color, #000028);
+  color: var(--section-points-color, #000028);
 }
 
 .section_advices {

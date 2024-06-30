@@ -6,9 +6,13 @@
   --font-family: "IBM Plex Mono", sans-serif;
   --bg-color: #000028;
   --text-color: #F1B2CE;
+  --shadow-color: #FF0070;
   --accent-color:  #FF0070;
+  --accent-text-color: #000028;
   --title-color: #db00ff;
-  --decor-color: #FF0070;
+  --section-title-color: #FF0070;
+  --section-points-color: #000028;
+  --decor-color: #FF0070;  
   --bg-image: url("/images/cover-image-dark.png");
   --padding: 10px;
   --section-margin: 50px;
@@ -31,8 +35,8 @@
 
 @media (min-width: 768px) and (max-width: 1200px) {
   :root {
-  --ft-margin: 33px;
-  --header-margin: 87px;
+  --ft-margin: 60px;
+  --header-margin: 60px;
   --title-font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
 }
 }
