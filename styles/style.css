@@ -75,7 +75,7 @@
   content: "";
   position: absolute;
   inline-size: 25px;
-  block-size: 25px;  
+  block-size: 25px;
   border-left: 1px solid var(--decor-color, #FF0070);
   border-bottom: 1px solid var(--decor-color, #FF0070);
   bottom: var(--padding);
