@@ -85,7 +85,7 @@
 .decorared-element {
 justify-self: end;
 align-self: self-start;
-padding-right: 25px;
+padding-right: 28px;
 text-align: center;
 color: var(--accent-color, #FF0070);
 text-transform: uppercase;
@@ -344,3 +344,6 @@ grid-auto-flow: row dense;
   margin-block-start: var(--ft-margin, 40px);
  }
 
+.footer .header_title {
+  text-shadow: 2px 2px var(--shadow-color, #FF0070);
+}
