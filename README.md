@@ -1,1 +1,1 @@
-git@github.com:irinadl/slozhno-sosredotochitsya.git
+https://github.com/irinadl/slozhno-sosredotochitsya.git
