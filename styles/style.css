@@ -200,14 +200,19 @@ button:disabled {
 .section_reasons {
   width: 100%;
   grid-template-columns: 1fr 2fr;
- /* gap: 10px;*/
- }
+  }
 
 
 @media (max-width: 600px) {
   .section.section_reasons, .section.section_advices {
     grid-template-columns: 1fr;
   }  
+ }
+ 
+ @media (min-width: 1024px) {
+  .section.section_reasons {
+    gap: 10px;
+  }
  }
 
 .section_list {
