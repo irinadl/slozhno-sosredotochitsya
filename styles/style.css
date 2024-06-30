@@ -30,7 +30,13 @@
     line-height: 83%;
     color: var(--title-color, #db00ff);
     text-shadow: 4px 4px var(--shadow-color, #FF0070); 
-    margin-left: -10px; 
+    margin-left: -20px; 
+  }
+
+  @media (max-width: 600px) {
+    .header_title {
+      margin-left: 0;
+    }
   }
 
   .accent_text {
