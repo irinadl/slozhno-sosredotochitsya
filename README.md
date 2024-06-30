@@ -1,0 +1,1 @@
+git@github.com:irinadl/slozhno-sosredotochitsya.git
