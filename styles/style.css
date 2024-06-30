@@ -44,6 +44,7 @@
     font-size: 18px;
     color: var(--accent-text-color, #000028);
     background: var(--accent-color, #FF0070);
+    min-height: 23px;
   }
   
   .header_annotation {
@@ -270,6 +271,12 @@ button:disabled {
 .section_advices {
   width: 100%;
   grid-template-columns: 1fr 2fr;
+}
+
+@media (min-width: 1024px) {
+ .section_advices {
+  grid-template-columns: 315px 1fr;
+ }
 }
 
  .section_image {
