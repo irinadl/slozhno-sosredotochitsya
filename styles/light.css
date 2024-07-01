@@ -10,10 +10,10 @@
     чем стили в медиазапросе предпочтений пользователя
   */
   background-attachment: fixed;
-  --bg-color: #FFF1F7;
+  --bg-color: #fff1f7;
   --text-color: #353430;
   --shadow-color: #ff8dcb;
-  --accent-color: #FF8DCB;
+  --accent-color: #ff8dcb;
   --accent-text-color: #353430;
   --title-color: #ffc2e6;
   --section-title-color: #353430;
@@ -21,31 +21,30 @@
   --decor-color: #353430;
   --bt-hover-color: rgba(50, 49, 45, 0.4);
   --bg-image: url("../images/cover-image-light.png");
-  }
+}
 
-  .page.theme_light .decorared-element {
-    opacity: 0;
-  } 
+.page.theme_light .decorared-element {
+  opacity: 0;
+}
 
-  :root.theme-light {
-    --bg-color: #FFF1F7;
+:root.theme-light {
+  --bg-color: #fff1f7;
+  --text-color: #353430;
+  --accent-color: #ff8dcb;
+  --accent-text-color: #353430;
+  --shadow-color: #ff8dcb;
+  --title-color: #ffc2e6;
+  --decor-color: #353430;
+  --bt-hover-color: rgba(50, 49, 45, 0.4);
+  --bg-image: url("../images/cover-image-light.png");
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    --bg-color: #ffc2e6;
     --text-color: #353430;
-    --accent-color:  #FF8DCB;
-    --accent-text-color: #353430;
     --shadow-color: #ff8dcb;
-    --title-color: #ffc2e6;
-    --decor-color: #353430;
-    --bt-hover-color: rgba(50, 49, 45, 0.4);
-    --bg-image: url("../images/cover-image-light.png");
-  }
-
-  
-  @media (prefers-color-scheme: light) {
-    :root {
-    --bg-color: #FFC2E6;
-    --text-color: #353430;
-    --shadow-color: #ff8dcb;
-    --accent-color:  #FF8DCB;
+    --accent-color: #ff8dcb;
     --accent-text-color: #353430;
     --title-color: #ffc2e6;
     --section-title-color: #353430;
@@ -57,9 +56,9 @@
     .page {
       background-attachment: fixed;
     }
-  } 
+  }
 
   .decorared-element {
     opacity: 0;
   }
-  }
+}

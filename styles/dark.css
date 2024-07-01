@@ -6,17 +6,16 @@
 
 :root.theme_dark {
   --bg-color: #000028;
-  --text-color: #F1B2CE;
-  --accent-color:  #FF0070;
+  --text-color: #f1b2ce;
+  --accent-color: #ff0070;
   --accent-text-color: #000028;
   --section-title-color: #353430;
   --section-points-color: #353430;
-  --shadow-color: #FF0070;
+  --shadow-color: #ff0070;
   --title-color: #db00ff;
-  --decor-color: #FF0070;
+  --decor-color: #ff0070;
   --bg-image: url("../images/cover-image-dark.png");
 }
-
 
 .page.theme_dark {
   /* сохраните этот селектор в приведённом виде.
@@ -25,19 +24,18 @@
   */
   background-attachment: fixed;
   --bg-color: #000028;
-  --text-color: #F1B2CE;
-  --accent-color:  #FF0070;
+  --text-color: #f1b2ce;
+  --accent-color: #ff0070;
   --accent-text-color: #000028;
-  --section-title-color: #FF0070;
+  --section-title-color: #ff0070;
   --section-points-color: #000028;
-  --shadow-color: #FF0070;
+  --shadow-color: #ff0070;
   --title-color: #db00ff;
-  --decor-color: #FF0070;
+  --decor-color: #ff0070;
   --bt-hover-color: rgba(255, 0, 112, 0.4);
   --bg-image: url("../images/cover-image-dark.png");
 }
 
 .page.theme_dark .decorared-element {
- opacity: 1;
-} 
-
+  opacity: 1;
+}
