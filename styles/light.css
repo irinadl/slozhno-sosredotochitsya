@@ -12,13 +12,14 @@
   background-attachment: fixed;
   --bg-color: #FFF1F7;
   --text-color: #353430;
-  --shadow-color: #ff0070;
+  --shadow-color: #ff8dcb;
   --accent-color: #FF8DCB;
   --accent-text-color: #353430;
   --title-color: #ffc2e6;
   --section-title-color: #353430;
   --section-points-color: #353430;
   --decor-color: #353430;
+  --bt-hover-color: rgba(50, 49, 45, 0.4);
   --bg-image: url("../images/cover-image-light.png");
   }
 
@@ -31,9 +32,10 @@
     --text-color: #353430;
     --accent-color:  #FF8DCB;
     --accent-text-color: #353430;
-    --shadow-color: #ff0070;
+    --shadow-color: #ff8dcb;
     --title-color: #ffc2e6;
     --decor-color: #353430;
+    --bt-hover-color: rgba(50, 49, 45, 0.4);
     --bg-image: url("../images/cover-image-light.png");
   }
 
@@ -42,13 +44,14 @@
     :root {
     --bg-color: #FFC2E6;
     --text-color: #353430;
-    --shadow-color: #ff0070;
+    --shadow-color: #ff8dcb;
     --accent-color:  #FF8DCB;
     --accent-text-color: #353430;
     --title-color: #ffc2e6;
     --section-title-color: #353430;
     --section-points-color: #353430;
     --decor-color: #353430;
+    --bt-hover-color: rgba(50, 49, 45, 0.4);
     --bg-image: url("../images/cover-image-light.png");
 
     .page {

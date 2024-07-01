@@ -33,6 +33,7 @@
   --shadow-color: #FF0070;
   --title-color: #db00ff;
   --decor-color: #FF0070;
+  --bt-hover-color: rgba(255, 0, 112, 0.4);
   --bg-image: url("../images/cover-image-dark.png");
 }
 
