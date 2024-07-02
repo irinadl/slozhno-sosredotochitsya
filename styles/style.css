@@ -244,6 +244,7 @@ article {
   .section_obstacles .section_title {
     display: grid;
     grid-template-columns: 1fr 2fr;
+    gap: 20px;
   }
 }
 
