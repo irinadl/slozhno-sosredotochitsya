@@ -2,7 +2,6 @@
 
 .page {
   /* сохраните в разметке и стилях класс page. На его основе работает скрипт. */
-  background-attachment: fixed;
   font-family: var(--font-family, monospace);
   font-style: normal;
   font-size: 18px;
@@ -11,6 +10,7 @@
   color: var(--text-color, #f1b2ce);
   background-color: var(--bg-color, #000028);
   background: var(--bg-image) no-repeat center / cover;
+  background-attachment: fixed;
   width: 100%;
 }
 
@@ -240,10 +240,6 @@ article {
   .section.section_advices {
     width: 100%;
     grid-template-columns: 1fr 2fr;
-  }
-
-  .section_title {
-    width: 30vw;
   }
 }
 
