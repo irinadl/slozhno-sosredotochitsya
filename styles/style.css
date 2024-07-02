@@ -8,9 +8,9 @@
   font-weight: 400;
   line-height: 130%;
   color: var(--text-color, #f1b2ce);
-  background-color: var(--bg-color, #000028);
   background: var(--bg-image) no-repeat center / cover;
   background-attachment: fixed;
+  background-color: var(--bg-color, #000028);
   width: 100%;
 }
 
@@ -184,10 +184,10 @@ button:disabled {
 }
 
 .section_title {
+  display: block;
   font-weight: 700;
   font-size: inherit;
   color: var(--section-title-color, #ff0070);
-  display: block;
   width: 100%;
 }
 
@@ -241,9 +241,9 @@ article {
     width: 100%;
     grid-template-columns: 1fr 2fr;
   }
-
-  .section_title {
-    width: 30vw;
+  .section_obstacles .section_title {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
   }
 }
 
@@ -255,10 +255,6 @@ article {
   .section_obstacles .section_list {
     grid-auto-flow: row;
     grid-template-columns: repeat(3, 1fr);
-  }
-
-  .section_title {
-    width: 100%;
   }
 }
 
