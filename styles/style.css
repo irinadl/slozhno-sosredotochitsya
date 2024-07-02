@@ -241,6 +241,7 @@ article {
     width: 100%;
     grid-template-columns: 1fr 2fr;
   }
+  /*стилизация заголовка для попадания в макет на брейкпоинтах*/
   .section_obstacles .section_title {
     display: grid;
     grid-template-columns: 1fr 2fr;
